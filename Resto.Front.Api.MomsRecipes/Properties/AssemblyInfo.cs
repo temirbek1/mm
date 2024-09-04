@@ -18,4 +18,4 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyCompany("AITK.RU")]
 [assembly: AssemblyCopyright("Copyright © AITK")]
-[assembly: AssemblyVersion("1.0.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
