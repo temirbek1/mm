@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("API.MomsRecipes")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Resto.Front.Api.MomsRecipes")]
+[assembly: AssemblyDescription("Плагин для MomsRecipes")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("API.MomsRecipes")]
-[assembly: AssemblyCopyright("Copyright ©  2023 aitk.ru")]
+[assembly: AssemblyCompany("AITK.RU")]
+[assembly: AssemblyProduct("Resto.Front.Api.MomsRecipes")]
+[assembly: AssemblyCopyright("Copyright © AITK")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -23,7 +22,6 @@ using System.Runtime.InteropServices;
 [assembly: Guid("18e5aa08-4d63-4333-9aa4-81f4278adfe9")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
-//
 //      Основной номер версии
 //      Дополнительный номер версии
 //   Номер сборки
@@ -31,6 +29,5 @@ using System.Runtime.InteropServices;
 //
 // Можно задать все значения или принять номер сборки и номер редакции по умолчанию.
 // используя "*", как показано ниже:
-// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

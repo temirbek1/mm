@@ -5,6 +5,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+using JetBrainsNotNull = JetBrains.Annotations.NotNullAttribute;
+using SystemNotNull = System.Diagnostics.CodeAnalysis.NotNullAttribute;
+
+using JetBrains.Annotations; // Для JetBrains.Annotations.NotNullAttribute
+using System.Diagnostics.CodeAnalysis; // Для System.Diagnostics.CodeAnalysis.NotNullAttribute
+
+
 namespace Resto.Front.Api.MomsRecipes
 {
     public static class Func

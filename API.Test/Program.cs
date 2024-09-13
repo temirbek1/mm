@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace API.Test
@@ -14,9 +11,23 @@ namespace API.Test
         [STAThread]
         static void Main()
         {
+            // Эта строка включит визуальные стили для элементов управления.
             Application.EnableVisualStyles();
+            
+            // Настройка для использования совместимого рендеринга текста
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            // Запуск главной формы приложения.
             Application.Run(new frmTest());
         }
     }
+
+    public partial class frmTest : Form
+    {
+    public frmTest()
+    {
+        InitializeComponent();
+        }
+    }
+
 }
